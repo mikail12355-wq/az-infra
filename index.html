@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AZ-Infra – Glasfaserausbau, Tief- und Leitungsbau</title>
+<meta name="description" content="AZ-Infra GmbH aus Plauen: Glasfaserausbau, Kabel- und Leitungstiefbau, Horizontalspülbohrung, Kabelverlegung und Montage. Von der Planung bis zum Hausanschluss.">
+<meta name="theme-color" content="#f6f5f1">
+<link rel="preload" href="assets/fonts/archivo-var.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<header class="top" id="top">
+  <a class="brand" href="#hero" aria-label="AZ-Infra – zur Startseite"><img src="assets/img/logo.png" alt="AZ Infra – Kabel und Leitungsbau" width="640" height="310"></a>
+  <nav class="nav" id="nav" aria-label="Hauptnavigation">
+    <a href="#ueber-uns">Über uns</a>
+    <a href="#leistungen">Leistungen</a>
+    <a href="#projekte">Projekte</a>
+    <a href="#karriere">Karriere</a>
+    <a class="btn" href="#kontakt">Anfrage erstellen</a>
+  </nav>
+  <button class="burger" id="burger" aria-label="Menü öffnen" aria-expanded="false" aria-controls="nav"><span></span><span></span><span></span></button>
+</header>
+
+<main>
+
+<!-- ───────── Scroll-Szene ───────── -->
+<section class="hero" id="hero" aria-label="So arbeiten wir">
+  <div class="stage">
+    <svg id="scene" role="img" aria-label="Animierte Darstellung einer Glasfaser-Baustelle: Pflaster aufnehmen, Graben ausheben, Leerrohre verlegen, Glasfaser einblasen, Oberfläche wiederherstellen." preserveAspectRatio="xMidYMid slice"></svg>
+    <div class="overlay">
+      <div class="intro on" id="intro">
+        <span class="mono">Glasfaser · Tiefbau · Leitungsbau</span>
+        <h1>Mit uns <em>schneller</em> am Netz</h1>
+        <p>Vom ersten Pflasterstein bis zum Licht in der Faser: Scrollen Sie durch einen Tag auf unserer Baustelle.</p>
+      </div>
+
+      <div class="cap" data-phase="1">
+        <span class="mono"><span class="num">01</span> Aufbruch</span>
+        <h2>Stein für Stein</h2>
+        <p>Die Baustelle wird gesichert, das Pflaster aufgenommen und sauber gestapelt – damit später jeder Stein wieder an seinen Platz kommt.</p>
+      </div>
+      <div class="cap" data-phase="2">
+        <span class="mono"><span class="num">02</span> Aushub</span>
+        <h2>Graben nach Maß</h2>
+        <p>Grabenaushub mit sauberen Kanten in allen Oberflächen und Bodenklassen. Jede Tiefe wird eingemessen und dokumentiert.</p>
+      </div>
+      <div class="cap" data-phase="3">
+        <span class="mono"><span class="num">03</span> Verlegung</span>
+        <h2>Leerrohre im Sandbett</h2>
+        <p>Speedpipes und Kabelschutzrohre werden farbcodiert verlegt – die Trasse für das Netz von morgen.</p>
+      </div>
+      <div class="cap" data-phase="4">
+        <span class="mono"><span class="num">04</span> Glasfaser</span>
+        <h2>Licht in der Faser</h2>
+        <p>LWL-Kabel werden eingeblasen, montiert und per Abnahmemessung geprüft. Haus für Haus geht ans Netz.</p>
+      </div>
+      <div class="cap" data-phase="5">
+        <span class="mono"><span class="num">05</span> Oberfläche</span>
+        <h2>Als wäre nichts gewesen</h2>
+        <p>Verfüllt, verdichtet, gepflastert: fachgerechte Oberflächengestaltung, bis nur noch das schnelle Netz an uns erinnert.</p>
+      </div>
+
+      <div class="outro" id="outro">
+        <span class="mono">Feierabend. Netz steht.</span>
+        <h2>Sauber verlegt.<br><em>Sauber hinterlassen.</em></h2>
+        <p>Über 38.000 Hausanschlüsse und mehr als 1.000 Kilometer Tiefbau – so sieht Qualität bei AZ-Infra aus.</p>
+      </div>
+
+      <a class="skip" href="#zahlen">Animation überspringen ↓</a>
+      <div class="rail" id="rail" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hint" id="hint" aria-hidden="true">Scrollen</div>
+      <div class="hud" id="hud" aria-hidden="true">
+        <span>Phase</span><b id="hudPhase">–</b>
+        <span>Grabentiefe</span><b id="hudDepth">0,00 m</b>
+        <span>Fortschritt</span><b id="hudProg">0 %</b>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Zahlen ───────── -->
+<section class="stats" id="zahlen" aria-label="Unsere Leistung in Zahlen">
+  <div class="wrap grid">
+    <div class="stat rv"><b><span data-count="38456">38.456</span></b><span>Hausanschlüsse</span></div>
+    <div class="stat rv" style="--d:.06s"><b><span data-count="1038">1.038</span><small>km</small></b><span>Tiefbau</span></div>
+    <div class="stat rv" style="--d:.12s"><b><span data-count="181">181</span><small>km</small></b><span>Spülbohrverfahren</span></div>
+    <div class="stat rv" style="--d:.18s"><b><span data-count="11.5" data-dec="1">11,5</span><small>km</small></b><span>Kabelpflugverfahren</span></div>
+    <div class="stat rv" style="--d:.24s"><b><span data-count="3.8" data-dec="1">3,8</span><small>km</small></b><span>Trenchingverfahren</span></div>
+  </div>
+</section>
+
+<!-- ───────── Über uns ───────── -->
+<section class="sec" id="ueber-uns">
+  <div class="wrap about">
+    <div class="col rv">
+      <div class="eyebrow">Über uns</div>
+      <h2 class="h2">Seit 2018 bauen wir <em>Breitband</em> für Deutschland</h2>
+      <p class="lead">Als kleines Unternehmen gestartet, sind wir heute verlässlicher Generalunternehmer für große Telekommunikationsanbieter – mit Komplettlösungen im Kabelleitungsbau, von der Planung bis zur Endmontage beim Kunden.</p>
+      <p class="body">Gegründet im Jahr 2018, hat sich AZ-Infra das Ziel gesetzt, den Breitbandausbau in Deutschland mit Fachwissen und Know-how aktiv voranzutreiben. Ursprünglich als Subunternehmer für renommierte Baufirmen tätig, erfüllen wir heute die Anforderungen und Auftragsvolumen unserer Auftraggeber fachgerecht und termingerecht in Eigenregie.</p>
+      <p class="body">Als Teil der ARIK Group verfügen wir über einen umfassenden Fuhrpark und modernstes Equipment: HDD-Bohranlagen, Bagger, LKW, Transporter und Verdichtungsgeräte bis hin zu hochwertiger Spleiß- und Messtechnik.</p>
+
+      <div class="growth">
+        <h3>Gebaute Trassenkilometer pro Jahr</h3>
+        <div class="bar"><span>2021</span><i style="--v:29.1"><b>74 km</b></i></div>
+        <div class="bar"><span>2022</span><i style="--v:61.4;--d:.12s"><b>156 km</b></i></div>
+        <div class="bar"><span>2023</span><i style="--v:100;--d:.24s"><b>254 km</b></i></div>
+      </div>
+    </div>
+    <div class="col rv" style="--d:.1s">
+      <div class="photo"><img src="assets/img/fuhrpark.jpg" alt="Transporter-Flotte von AZ-Infra auf dem Betriebshof" loading="lazy" width="1200" height="1200"></div>
+      <div class="facts">
+        <div><b>175</b><span>Mitarbeiter</span></div>
+        <div><b>11</b><span>Telekom-Projekte 2024</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Leistungen ───────── -->
+<section class="sec" id="leistungen" style="padding-top:0">
+  <div class="wrap">
+    <div class="svc-head rv">
+      <div>
+        <div class="eyebrow">Leistungen</div>
+        <h2 class="h2">Alles aus <em>einer Hand</em></h2>
+      </div>
+      <p class="lead">Wir bringen Menschen nachhaltig und schnell zusammen – ob Breitbandausbau, Anbindung von Funkmasten oder Ausbau von Ladestationen.</p>
+    </div>
+
+    <article class="svc rv">
+      <div><h3>Planung, Projektierung, Dokumentation</h3><span class="tag">Ingenieurleistungen</span></div>
+      <p>Als Dienstleister für TK-Unternehmen, Städte und Gemeinden übernehmen wir alle Ingenieurleistungen – von der Konzeptentwicklung bis zur Ausführungsplanung. Wir wählen die optimale Verlegemethode für Oberfläche und Bodenklasse, behalten Termine und Kosten im Blick und sorgen für rechtssichere Planung sowie höchste Standards in Arbeitsschutz und Anlagensicherheit.</p>
+      <div class="photo"><img src="assets/img/luftbild.jpg" alt="Luftaufnahme einer Trasse durch ein Wohngebiet" loading="lazy" width="1200" height="1200"></div>
+    </article>
+
+    <article class="svc rv">
+      <div><h3>Horizontal­spülbohrungen</h3><span class="tag">In allen Bodenklassen</span></div>
+      <p>Unsere gesteuerten Bohranlagen ermöglichen Längsverlegungen bis zu 200 m, Gewässerkreuzungen und Unterbohrungen ganzer Industriekomplexe – für Kabelschutzrohre ebenso wie für Gas- und Trinkwasserleitungen. Grabenlos, schnell und schonend für Oberfläche und Umwelt.</p>
+      <div class="photo"><img src="assets/img/hdd.jpg" alt="HDD-Bohranlage im Einsatz" loading="lazy" width="1200" height="1200"></div>
+    </article>
+
+    <article class="svc rv">
+      <div><h3>Kabel- &amp; Rohrleitungs­tiefbau</h3><span class="tag">FTTC · FTTB · FTTH · Backbone</span></div>
+      <p>Wir bauen die Infrastruktur von morgen – in allen Oberflächen und Bereichen. Ob FTTH-Projekt, Backbone-Trasse oder Funkpunktanbindung: Grabenaushub, Pflugeinsatz und Fräsarbeiten führen wir mit geschultem, erfahrenem Personal professionell und fachgerecht aus.</p>
+      <div class="photo"><img src="assets/img/verbau2.jpg" alt="Fachgerecht verbauter Leitungsgraben" loading="lazy" width="1200" height="1200"></div>
+    </article>
+
+    <article class="svc rv">
+      <div><h3>Kabelverlegung &amp; Montage</h3><span class="tag">Über 1.000 km Kabel pro Jahr</span></div>
+      <p>Mit eigenem Team und modernster Ausstattung installieren wir Mini- und Mikrorohre, Kabel aller Dimensionen und einzelne Fasern. Für lange Strecken und schwere Kabel setzen wir Kabelziehwinden ein; unsere Monteure realisieren auch komplexe Glasfaserprojekte inklusive Abnahmemessung.</p>
+      <div class="photo"><img src="assets/img/speedpipe.jpg" alt="Farbcodierte Speedpipes im offenen Graben mit Messlatte" loading="lazy" width="1200" height="1200"></div>
+    </article>
+
+    <ul class="chips rv">
+      <li>Kabelinstallation per Hand und mit Winden</li>
+      <li>Einblasen von LWL-Kabeln und Speedpipe/Mikrorohren</li>
+      <li>Verlegung von Energiekabeln und KSR-Anlagen</li>
+      <li>GF-Kabelmontagen mit Abnahmemessungen</li>
+      <li>Grabenaushub, Pflugeinsatz und Fräsarbeiten</li>
+      <li>Verlegung von Kabeln, Rohren und Schächten</li>
+      <li>Hausanschlüsse und KVz-Anbindungen</li>
+      <li>Fachgerechte Oberflächengestaltung</li>
+      <li>Umweltschonende Bauweise</li>
+      <li>Genehmigungsverfahren und Dokumentation</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Baustelle live ───────── -->
+<section class="sec live" id="baustelle">
+  <div class="wrap grid">
+    <div class="rv">
+      <div class="eyebrow">Aktuell von der Baustelle</div>
+      <h2 class="h2">Leipzig geht <em>ans Netz</em></h2>
+      <p class="lead">In Leipzig läuft der Glasfaserausbau auf Hochtouren. Das Team ist voll motiviert, die Arbeiten schreiten zügig voran – Schritt für Schritt bringen wir die digitale Zukunft in die Straße.</p>
+      <a class="btn ghost" href="https://www.instagram.com/azinfra.gmbh/" target="_blank" rel="noopener">@azinfra.gmbh auf Instagram</a>
+      <div class="loc"><span>Ort <b>Leipzig</b></span><span>Verfahren <b>Offene Bauweise</b></span><span>Netz <b>Glasfaser FTTH</b></span></div>
+    </div>
+    <div class="reel rv" id="reel" style="--d:.1s">
+      <video id="reelVideo" src="assets/video/baustelle-leipzig.mp4" poster="assets/video/baustelle-leipzig.jpg" muted loop playsinline preload="none" controls aria-label="Video von unserer Glasfaser-Baustelle in Leipzig"></video>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Projekte ───────── -->
+<section class="sec" id="projekte">
+  <div class="wrap">
+    <div class="svc-head rv" style="margin-bottom:0">
+      <div>
+        <div class="eyebrow">Projekte</div>
+        <h2 class="h2">Qualität, die man <em>sieht</em></h2>
+      </div>
+      <p class="lead">Gerade Kanten, eingemessene Tiefen, gesicherte Baustellen und wiederhergestellte Oberflächen: Einblicke in unsere Arbeit.</p>
+    </div>
+    <div class="gal">
+      <figure class="big rv"><img src="assets/img/leerrohre.jpg" alt="Offener Graben mit farbigen Leerrohren und Messlatte" loading="lazy"><figcaption>Leerrohrverband, eingemessen</figcaption></figure>
+      <figure class="rv"><img src="assets/img/pflaster.jpg" alt="Mitarbeiter stellen Pflasterfläche wieder her" loading="lazy"><figcaption>Oberfläche wiederherstellen</figcaption></figure>
+      <figure class="rv"><img src="assets/img/graben-strasse.jpg" alt="Gerader Leitungsgraben entlang einer Straße" loading="lazy"><figcaption>Trasse in offener Bauweise</figcaption></figure>
+      <figure class="rv"><img src="assets/img/baustelle.jpg" alt="Gesicherte Baustelle mit Minibaggern" loading="lazy"><figcaption>Gesicherte Baustelle</figcaption></figure>
+      <figure class="rv"><img src="assets/img/maschinenpark.jpg" alt="Minibagger-Flotte von AZ-Infra" loading="lazy"><figcaption>Eigener Maschinenpark</figcaption></figure>
+      <figure class="rv"><img src="assets/img/graben-lang.jpg" alt="Langer verbauter Graben vor einem Wohnhaus" loading="lazy"><figcaption>Innerstädtischer Tiefbau</figcaption></figure>
+      <figure class="rv"><img src="assets/img/montage.jpg" alt="Montagearbeiten mit Ladekran" loading="lazy"><figcaption>Montage</figcaption></figure>
+      <figure class="rv"><img src="assets/img/messlatte.jpg" alt="Graben mit Leerrohren und Messlatte zur Dokumentation" loading="lazy"><figcaption>Dokumentierte Verlegetiefe</figcaption></figure>
+      <figure class="rv"><img src="assets/img/absperrung.jpg" alt="Abgesicherter Gehweg nach Abschluss der Arbeiten" loading="lazy"><figcaption>Verkehrssicherung</figcaption></figure>
+    </div>
+    <div class="partners rv">
+      <span class="mono" style="color:var(--mute)">Wir bauen unter anderem für</span>
+      <ul><li>Deutsche Telekom</li><li>e.discom</li><li>GlasfaserPlus</li><li>OXG</li></ul>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Warum AZ-Infra ───────── -->
+<section class="sec" style="padding-top:0">
+  <div class="wrap why">
+    <div class="rv">
+      <div class="eyebrow">Warum AZ-Infra</div>
+      <h2 class="h2">Der richtige Partner für Ihre <em>Trasse</em></h2>
+      <p class="lead" style="margin-top:28px">AZ-Infra ist Ihr Experte für Straßen- und Tiefbau, spezialisiert auf die Verlegung von Glasfasernetzen. Wir bieten maßgeschneiderte Lösungen für die Infrastruktur Ihrer Gemeinde oder Ihres Unternehmens – und stehen Ihnen von der Planung bis zur Fertigstellung als verlässlicher Partner zur Seite.</p>
+    </div>
+    <ul class="rv" style="--d:.1s">
+      <li>Expertise</li>
+      <li>Maßgeschneiderte Lösungen</li>
+      <li>Zuverlässigkeit</li>
+      <li>Effizienz</li>
+      <li>Zukunftsorientierung</li>
+    </ul>
+  </div>
+</section>
+
+<!-- ───────── Karriere ───────── -->
+<section class="sec career" id="karriere">
+  <div class="wrap">
+    <div class="head rv">
+      <div>
+        <div class="eyebrow">Karriere</div>
+        <h2 class="h2">Wir fördern Karrieren</h2>
+      </div>
+      <p class="lead">Egal ob Profi oder Quereinsteiger: Bei AZ-Infra stehen Ihnen zahlreiche Entwicklungsmöglichkeiten offen. Werden Sie Teil eines zukunftsorientierten Teams.</p>
+    </div>
+    <div class="cards rv">
+      <div class="card"><h3>Schüler und Schulabgänger</h3><p>Praktikum, Ausbildung oder duales Studium – wir bieten zahlreiche Möglichkeiten für deinen Einstieg ins Berufsleben und geben Einblicke in den Arbeitsalltag.</p></div>
+      <div class="card"><h3>Studierende und Absolventen</h3><p>Direkteinstieg oder Traineeprogramm: Wir bieten den passenden Start für Ihre Karriere und wertvolle Tipps für Ihre Bewerbung.</p></div>
+      <div class="card"><h3>Berufserfahrene und Quereinsteiger</h3><p>Neue Projekte und einzigartige Perspektiven – ob Experte oder Führungskraft, auf der Baustelle oder im Büro: Bei uns sind Sie richtig.</p></div>
+    </div>
+    <a class="btn rv" href="mailto:kontakt@az-infra.de?subject=Bewerbung">Jetzt bewerben</a>
+  </div>
+</section>
+
+<!-- ───────── FAQ ───────── -->
+<section class="sec">
+  <div class="wrap faq">
+    <div class="rv">
+      <div class="eyebrow">Häufige Fragen</div>
+      <h2 class="h2">Gut zu <em>wissen</em></h2>
+    </div>
+    <div class="rv" style="--d:.1s">
+      <details name="faq" open><summary>Warum ist Glasfaser die beste Wahl für schnelles Internet?</summary><p>Glasfaserkabel bieten im Vergleich zu herkömmlichen Kupferleitungen eine deutlich höhere Bandbreite und Übertragungsgeschwindigkeit. Sie ermöglichen stabile, zukunftssichere Verbindungen, die auch bei hoher Nutzung nicht an Leistung verlieren.</p></details>
+      <details name="faq"><summary>Wie lange dauert die Installation eines Glasfasernetzes?</summary><p>Das hängt von der Größe des Projekts und den lokalen Gegebenheiten ab. Planung und Verlegung können mehrere Wochen bis Monate in Anspruch nehmen. AZ-Infra arbeitet effizient, um den Prozess so schnell wie möglich abzuschließen.</p></details>
+      <details name="faq"><summary>Welche Vorteile bietet Glasfaser für Unternehmen?</summary><p>Eine zuverlässige, leistungsstarke Verbindung ist essenziell für Cloud-Dienste, Videokonferenzen und andere datenintensive Anwendungen – und sorgt für höhere Produktivität und Wettbewerbsfähigkeit.</p></details>
+      <details name="faq"><summary>Wie umweltfreundlich ist Glasfasertechnologie?</summary><p>Glasfaser verbraucht weniger Energie und hat eine längere Lebensdauer als Kupferleitungen. Wir legen großen Wert auf nachhaltige Praktiken bei Installation und Wartung, um die Umweltbelastung zu minimieren.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- ───────── Kontakt ───────── -->
+<section class="sec contact" id="kontakt">
+  <div class="wrap grid">
+    <div class="rv">
+      <div class="eyebrow">Kontakt</div>
+      <h2 class="h2">Sprechen wir über Ihr <em>Projekt</em></h2>
+      <p class="lead">Haben Sie Fragen zu unseren Leistungen oder möchten Sie ein Projekt besprechen? Wir melden uns so schnell wie möglich bei Ihnen.</p>
+      <dl class="dl">
+        <div><dt>Telefon</dt><dd><a href="tel:+4937412569970">+49 3741 2569970</a></dd></div>
+        <div><dt>E-Mail</dt><dd><a href="mailto:kontakt@az-infra.de">kontakt@az-infra.de</a></dd></div>
+        <div><dt>Adresse</dt><dd>Pausaer Straße 115<br>08525 Plauen</dd></div>
+      </dl>
+    </div>
+    <form class="rv" id="form" style="--d:.1s">
+      <label>Vor- und Nachname<input name="name" autocomplete="name" required></label>
+      <label>Stadt + PLZ<input name="ort" autocomplete="address-level2"></label>
+      <label>Telefonnummer<input name="tel" type="tel" autocomplete="tel"></label>
+      <label>E-Mail-Adresse<input name="email" type="email" autocomplete="email" required></label>
+      <label class="full">Nachricht<textarea name="msg" required></textarea></label>
+      <label class="check full"><input type="checkbox" required><span>Ich bin damit einverstanden, dass meine Angaben zur Bearbeitung der Anfrage verwendet werden. Hinweise in der <a href="https://az-infra.de/dataprotection-2159-8868-3230-7697">Datenschutzerklärung</a>.</span></label>
+      <div class="full" style="display:flex;gap:18px;align-items:center;flex-wrap:wrap">
+        <button class="btn" type="submit">Anfrage erstellen</button>
+        <span class="note" id="formNote">Öffnet Ihr E-Mail-Programm mit der fertigen Anfrage.</span>
+      </div>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer id="impressum">
+  <div class="wrap">
+    <div class="foot">
+      <div>
+        <img src="assets/img/logo-arik-hell.png" alt="AZ Infra – Kabel und Leitungsbau. Ein Unternehmen der ARIK Group" loading="lazy" width="900" height="576">
+      </div>
+      <div>
+        <h3>Impressum</h3>
+        <p>AZ-Infra GmbH<br>Pausaer Straße 115, 08525 Plauen<br>Gesellschafter: Ertan Arik<br>Geschäftsführer: Jan Zeidler<br>HRB 32005, Amtsgericht Chemnitz<br>St.-Nr.: 223/105/05173</p>
+      </div>
+      <div>
+        <h3>Kontakt</h3>
+        <ul>
+          <li>Tel. Büro: <a href="tel:+4937417196237">03741 7196237</a></li>
+          <li>Mobil: <a href="tel:+4915114777776">0151 14 77777 6</a></li>
+          <li>Fax: 03741 7196236</li>
+          <li><a href="mailto:kontakt@az-infra.de">kontakt@az-infra.de</a></li>
+          <li><a href="https://az-infra.de/dataprotection-2159-8868-3230-7697">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal"><span>© <span id="year">2026</span> AZ-Infra GmbH · Ein Unternehmen der ARIK Group</span><a href="#hero" style="text-decoration:none">Nach oben ↑</a></div>
+  </div>
+</footer>
+
+<script src="assets/frames/manifest.js"></script>
+<script src="assets/video-hero.js"></script>
+<script src="assets/scene.js"></script>
+<script src="assets/main.js"></script>
+</body>
+</html>
